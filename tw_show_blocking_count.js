@@ -6,6 +6,7 @@ if (!window.jQuery) {
     return s;
   })());
 }
+
 // 一番下までスクロールする
 var maxHistory = [0, 0, 0, 0, 0, 0, 0, 0, 0, 0];
 var interval = function(){
@@ -25,5 +26,6 @@ var interval = function(){
     }
 };
 
+// タイマーを設定(500ms)
+// 回線が遅い場合など、一番下までスクロールせず止まってしまう場合は大きく
 var timer = setInterval(interval, 500);
-
