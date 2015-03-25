@@ -1,2 +1,6 @@
-# tw_show_blocking_count
-show Twitter blocking list count
+# Twitterのブロック数を数える
+
+Twitterで「設定」-「ブロックしているアカウント」の画面でスクリプトを実行するとブロックしている人の数が表示されます。
+
+上のページを表示した状態で、ChromeやFirefoxなどの開発ツールのコンソールにスクリプトを貼付けて実行してください。
+
